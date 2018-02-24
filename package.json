@@ -1,0 +1,6 @@
+{
+  "name": "harta-scolastica",
+  "dependencies": {
+    "topojson": "^3.0.2"
+  }
+}
