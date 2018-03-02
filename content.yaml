@@ -1,0 +1,109 @@
+---
+domnitori:
+  - id: 1
+    nume: "Litovoi"
+    secol: 13
+    portret: "img-url"
+    geo:
+      - layer: "litovoi-layer"
+    text: |
+      "Din punct de vedere al organizării politice, diploma ioaniţor
+      certifică existenţa unei formaţiuni dintre care patru în dreapta
+      Oltului şi una la stânga lui. În Oltenia se menţionează, mai întâi,
+      «Ţara Severinului», urmează apoi cele trei cnezate: al lui Ioan, alui
+      Farcaş si al voievodului Litovoi. Erau formaşiuni politice vechi, aşa
+      cum erau şi în Transilvania, cunoscute încă din secolul al IX-lea. În
+      depresiunea Târgu Jiului, tăiată prin mijloc de râul Jiu,
+      prelungindu-se spre apus până în depresiunea Tismanei, iar spre
+      răsărit până la Olt era centrul ţării Litua condusă de voievodul
+      Litovoi. Documentul nu cunoaşte cum se numea această ţară de
+      către locuitorii ei şi a numit-o după numele domnului. Ţara Litua
+      era un voievodat întins, în primul rând pe teritoriul judeţului Gorj
+      de astăzi, din moment ce îngloba şi Ţara Haţeguluui, (...) o continuare
+      naturală prin Valea Jiului, loc pe unde şi legăturile dintre românii de
+      dincolo şi de dincoace au fost permanente. În sud, voievodatul cobora spre
+      câmpie, arată arată istoricul Vasile Cărăbiş în lucrarea 'Ţara Litua'."
+  - id: 2
+    nume: "Negru Voda"
+    secol: 12
+    portre: "img-url"
+    geo:
+      - layer: "negru-voda-layer"
+    text: |
+      "Negru Vodă a fost, potrivit legendei, fondatorul și primul domn al Țării
+      Românești. Existența lui reală este controversată, făcând subiectul mai
+      multor cercetări mai mult sau mai puțin istorice. Potrivit legendei, Negru
+      Vodă apare ca un personaj care la 1290, se presupune că a trecut Carpații
+      din Făgăraș și s-a stabilit la Curtea de Argeș sau Câmpulung, unde a
+      întemeiat un voievodat. 'Iar când au fost la cursul anilor de la Adam 6798,
+      fiind în Țara Ungurească un voievod ce l-au chiemat Radul Negrul Voievod,
+      mare herțeg pre Almaș și pre Făgăraș, rădicatu-s- au de acolo cu toată casa
+      lui și cu mulțime noroade: rumâni, papistași, sași, de tot feliul de oameni,
+      pogorându-se pre apa Dâmboviții, început-au a face țară noao.'
+      —Letopisețul Cantacuzinesc
+      'Când au fost cursul anilor de la Adam 6798, Radul Vodă Negrul, care avea
+      scaunul său la Făgăraș de la moșii și strâmoșii rumânilor, carii venise de
+      la Roma, în zilele lui Traian împăratul Romii s-au socotit ca să-și mute
+      scaunul dencoace, peste plai.'
+      —Cronica Bălenilor"
+
+migratii:
+    - id: 1
+      nume: "Gotii"
+      directie: "gotii-layer"
+      imagine: "img-url"
+      text: |
+        "Goții erau un popor germanic, venit din zona Gotland de la Marea Baltică,
+        se stabilesc în sec al III lea în spaţiul de la nord de Marea Neagră.
+        Două dintre ramurile sale, vizigoții și ostrogoții, au jucat un rol
+        important în căderea Imperiului Roman de Vest și apariția Europei
+        medievale. Sub presiunea hunilor, goții se retrag la sud de Dunăre și
+        lasă în urmă, îngropat în pământ, tezaurul sacru al poporului său, care
+        a fost descoperit în 1837 la Pietroasele, Buzău."
+    - id: 2
+      nume: "Hunii"
+      directie: "hunii-layer"
+      imagine: "img-url"
+      text: |
+        "Hunii erau o confederație de trupe de războinici, gata să integreze alte
+        grupuri pentru a-și crește puterea militară. Popor nomad, se consideră ca
+        ei ar fi stimulat Marea Migrație, care a contribuit la prăbușirea Imperiului
+        Roman de Vest. Imperiul Hun s-a constituit sub conducerea regelui Attila,
+        și cuprindea teritorii vaste în Europa Centrală și de Est, până aproape
+        de Franța actuală."
+    - id: 3
+      nume: "Gepizii"
+      directie: "gepizii-layer"
+      imagine: "img-url"
+      text: |
+        "Gepizii sunt menționați pentru prima dată în istorie ca aliați ai goților
+        în invazia Daciei din 260. În secolul al IV-lea, gepizii au fost încorporați
+        în Imperiul Hun. După bătălia de la Nedao (Panonia), în care Imperiul Hun
+        a fost învins, Gepizii au devenit puterea dominantă în regiunile estice ale
+        Bazinului Carpatic. Potrivit lui Iordanes (istoric al Imperiului Roman de
+        Răsărit, sec VI), gepizii 'prin propriile lor puteri, au câștigat pentru ei
+        înșiși teritoriul hunilor și au condus ca învingători peste toată Dacia,
+        cerând Imperiului Roman nimic mai mult decât pace și un tribut anual'"
+    - id: 4
+      nume: "Slavii"
+      directie: "slavii-layer"
+      imagine: "img-url"
+      text: |
+        "Slavii sunt menționați pentru prima dată într-o cronică bizantină de
+        sec VI care îi prezenta astfel: slavii sunt organizați ca democrație și
+        cred într-un zeu, făcătorul fulgerului (Perun), căruia îi aduc jertfe.
+        Ei locuiesc în locuințe împrăștiate și își schimbă așezarea în mod constant.
+        În ceea ce privește războiul, sunt în principal soldați pedeștri, cu scuturi
+        mici și veste de luptă, ușor îmbrăcați, unii intrând în bătălie goi.
+        Cea mai veche scriere folosită de Slavi a fost cea glagolitică, care este
+        atribuită sfântului Chiril din Tesalonic. Acest alfabet a fost inventat
+        (sec IX) pentru a putea transpune în scris traducerea în limba slavă a Bibliei."
+    - id: 5
+      nume: "Avarii"
+      directie: "avarii-layer"
+      imagine: "img-url"
+      text: |
+        "Avarii provin din Khurasan, la sud-est de Marea Caspică, migrând apoi în
+        Caucaz. Ei au rămas până astăzi un grup etnic distinct inclus în Rusia,
+        și plasat între Marea Neagră și Marea Caspică și trăiesc în așezări mici
+        aflate la peste 2000 de m față de nivelul mării."
