@@ -5,6 +5,10 @@
 html, body, #map { height: 100%; margin: 0; }
 #map { margin-right: 200px; }
 #menu { float: right; height: 100%; width: 200px; }
+#text { position: absolute; bottom: 0; left: 0;
+  height: 30%; width: 30%; overflow-y: auto;
+  z-index: 2000; background: white;
+  border: 1px solid black; }
 </style>
 
 <script src="https://unpkg.com/topojson@3.0.2"></script>
@@ -15,6 +19,7 @@ html, body, #map { height: 100%; margin: 0; }
 
 <div id="menu"></div>
 <div id="map"></div>
+<div id="text"></div>
 
 <script>
 var map = L.map('map').setView([46, 25], 7);
@@ -44,11 +49,17 @@ fetch('content.yaml')
   content['domnitori'].forEach(function(record) {
     var link = $('<a href="#">').text(record.nume)
     $('<p>').append(link).appendTo('#menu');
+    link.on('click', function() {
+      $('#text').text(record.text);
+    });
   });
   $('<h2>').text("Năvălirea Barbarilor").appendTo('#menu');
   content['migratii'].forEach(function(record) {
     var link = $('<a href="#">').text(record.nume)
     $('<p>').append(link).appendTo('#menu');
+    link.on('click', function() {
+      $('#text').text(record.text);
+    });
   });
   $('<h2>').text("Dacia Romană").appendTo('#menu');
 });
