@@ -29,6 +29,11 @@ L.tileLayer('https://{s}.basemaps.cartocdn.com/light_all/{z}/{x}/{y}.png', {
     attribution: '&copy; <a href="http://osm.org/copyright">OpenStreetMap</a> contributors, &copy <a href="http://cartodb.com/attributions">CartoDB</a>'
 }).addTo(map);
 
+L.tileLayer('tiles/webmercator/{z}/{x}/{y}.png', {
+    tms: true,
+    attribution: '&copy; Muzeul Hărților'
+}).addTo(map);
+
 fetch('vectori.topojson')
 .then(function(resp) { return resp.json() })
 .then(function(topo) {
