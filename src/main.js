@@ -5,17 +5,48 @@ import {render} from 'react-dom'
 class App extends React.Component {
 
   render() {
+    let {text, content} = this.state || {}
+    let {domnitori, migratii} = content || {}
+
     return (
       <div id="app">
-        <div id="menu"></div>
+
+        <div id="menu">
+          <h2>România Mare</h2>
+
+          <h2>Domnitori</h2>
+          {(domnitori || []).map((record) => (
+            <p>
+              <a href='#' onClick={() => {this.setState({text: record.text})}}>
+                {record.nume}
+              </a>
+            </p>
+          ))}
+
+          <h2>Năvălirea Barbarilor</h2>
+          {(migratii || []).map((record) => (
+            <p>
+              <a href='#' onClick={() => {this.setState({text: record.text})}}>
+                {record.nume}
+              </a>
+            </p>
+          ))}
+
+
+          <h2>Dacia Romană</h2>
+
+        </div>
+
         <div id="map"></div>
-        <div id="text"></div>
+
+        <div id="text">{text}</div>
+
       </div>
     )
   }
 
   componentDidMount() {
-    var map = L.map('map').setView([46, 25], 7);
+    let map = L.map('map').setView([46, 25], 7);
 
     L.tileLayer('https://{s}.basemaps.cartocdn.com/light_all/{z}/{x}/{y}.png', {
         attribution: '&copy; <a href="http://osm.org/copyright">OpenStreetMap</a> contributors, &copy <a href="http://cartodb.com/attributions">CartoDB</a>'
@@ -27,39 +58,20 @@ class App extends React.Component {
     }).addTo(map);
 
     fetch('vectori.topojson')
-    .then(function(resp) { return resp.json() })
-    .then(function(topo) {
-      var bataliiData = topojson.feature(topo, topo.objects.batalii);
-      var graniteData = topojson.feature(topo, topo.objects.granite);
+    .then((resp) => { return resp.json() })
+    .then((topo) => {
+      let bataliiData = topojson.feature(topo, topo.objects.batalii);
+      let graniteData = topojson.feature(topo, topo.objects.granite);
 
       L.geoJSON(bataliiData).addTo(map);
       L.geoJSON(graniteData).addTo(map);
     });
 
     fetch('content.yaml')
-    .then(function(resp) { return resp.text() })
-    .then(function(body) {
-      var content = jsyaml.load(body);
-
-      var menu = $('#menu');
-      $('<h2>').text("România Mare").appendTo('#menu');
-      $('<h2>').text("Domnitori").appendTo('#menu');
-      content['domnitori'].forEach(function(record) {
-        var link = $('<a href="#">').text(record.nume)
-        $('<p>').append(link).appendTo('#menu');
-        link.on('click', function() {
-          $('#text').text(record.text);
-        });
-      });
-      $('<h2>').text("Năvălirea Barbarilor").appendTo('#menu');
-      content['migratii'].forEach(function(record) {
-        var link = $('<a href="#">').text(record.nume)
-        $('<p>').append(link).appendTo('#menu');
-        link.on('click', function() {
-          $('#text').text(record.text);
-        });
-      });
-      $('<h2>').text("Dacia Romană").appendTo('#menu');
+    .then((resp) => { return resp.text() })
+    .then((body) => {
+      let content = jsyaml.load(body);
+      this.setState({content})
     });
   }
 
