@@ -1,6 +1,14 @@
 {
   "name": "harta-scolastica",
   "dependencies": {
-    "topojson": "^3.0.2"
+    "babel-core": "^6.17.0",
+    "babel-loader": "^6.2.4",
+    "babel-preset-latest": "^6.16.0",
+    "babel-preset-react": "^6.16.0",
+    "babel-preset-stage-3": "^6.17.0",
+    "react": "^15.2.0",
+    "react-dom": "^15.2.0",
+    "topojson": "^3.0.2",
+    "webpack": "^1.13.1"
   }
 }
