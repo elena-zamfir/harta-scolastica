@@ -10,13 +10,15 @@ class App extends React.Component {
   }
 
   render() {
-    let {page, text, content} = this.state
+    let {page, subpage, content} = this.state
     let {domnitori, migratii} = content || {}
 
     let textBox = null
-    if(text) {
+    if(page == 'domnitori' || page == 'migratii') {
+      let record = content[page].filter((r) => r.id == subpage)[0]
+
       textBox = (
-        <div id="text">[{text}]</div>
+        <div id="text">{record.text}</div>
       )
     }
 
@@ -39,7 +41,7 @@ class App extends React.Component {
           <h2>Domnitori</h2>
           {(domnitori || []).map((record) => (
             <p>
-              <a href='#' onClick={() => {this.setState({text: record.text})}}>
+              <a href='#' onClick={() => {this.setState({page: 'domnitori', subpage: record.id})}}>
                 {record.nume}
               </a>
             </p>
@@ -48,7 +50,7 @@ class App extends React.Component {
           <h2>Năvălirea Barbarilor</h2>
           {(migratii || []).map((record) => (
             <p>
-              <a href='#' onClick={() => {this.setState({text: record.text})}}>
+              <a href='#' onClick={() => {this.setState({page: 'migratii', subpage: record.id})}}>
                 {record.nume}
               </a>
             </p>
