@@ -42,6 +42,10 @@ class App extends React.Component {
         <div id="homepage">
           <h1>Harta Școlastică</h1>
           <h2>a Daciei și României de azi</h2>
+          <div id="homepage-buttons">
+            <a href='#' onClick={() => {this.setState({page: 'domnitori', subpage: 'litovoi'})}}>Litovoi</a>
+            <a href='#' onClick={() => {this.setState({page: 'domnitori', subpage: 'stefan-cel-mare'})}}>Ștefan cel Mare</a>
+          </div>
         </div>
       )
     }
