@@ -1,6 +1,6 @@
 ---
 domnitori:
-  - id: 1
+  - id: 'litovoi'
     nume: "Litovoi"
     secol: 13
     portret: "img-url"
@@ -23,7 +23,8 @@ domnitori:
       naturală prin Valea Jiului, loc pe unde şi legăturile dintre românii de
       dincolo şi de dincoace au fost permanente. În sud, voievodatul cobora spre
       câmpie, arată arată istoricul Vasile Cărăbiş în lucrarea 'Ţara Litua'."
-  - id: 2
+
+  - id: 'negru-voda'
     nume: "Negru Voda"
     secol: 12
     portre: "img-url"
@@ -48,7 +49,7 @@ domnitori:
       —Cronica Bălenilor"
 
 migratii:
-    - id: 1
+    - id: 'gotii'
       nume: "Gotii"
       directie: "gotii-layer"
       imagine: "img-url"
@@ -60,7 +61,8 @@ migratii:
         medievale. Sub presiunea hunilor, goții se retrag la sud de Dunăre și
         lasă în urmă, îngropat în pământ, tezaurul sacru al poporului său, care
         a fost descoperit în 1837 la Pietroasele, Buzău."
-    - id: 2
+
+    - id: 'hunii'
       nume: "Hunii"
       directie: "hunii-layer"
       imagine: "img-url"
@@ -71,7 +73,8 @@ migratii:
         Roman de Vest. Imperiul Hun s-a constituit sub conducerea regelui Attila,
         și cuprindea teritorii vaste în Europa Centrală și de Est, până aproape
         de Franța actuală."
-    - id: 3
+
+    - id: 'gepizii'
       nume: "Gepizii"
       directie: "gepizii-layer"
       imagine: "img-url"
@@ -84,7 +87,8 @@ migratii:
         Răsărit, sec VI), gepizii 'prin propriile lor puteri, au câștigat pentru ei
         înșiși teritoriul hunilor și au condus ca învingători peste toată Dacia,
         cerând Imperiului Roman nimic mai mult decât pace și un tribut anual'"
-    - id: 4
+
+    - id: 'slavii'
       nume: "Slavii"
       directie: "slavii-layer"
       imagine: "img-url"
@@ -98,7 +102,8 @@ migratii:
         Cea mai veche scriere folosită de Slavi a fost cea glagolitică, care este
         atribuită sfântului Chiril din Tesalonic. Acest alfabet a fost inventat
         (sec IX) pentru a putea transpune în scris traducerea în limba slavă a Bibliei."
-    - id: 5
+
+    - id: 'avarii'
       nume: "Avarii"
       directie: "avarii-layer"
       imagine: "img-url"
