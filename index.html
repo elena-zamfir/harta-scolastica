@@ -4,15 +4,23 @@
 <style>
 html, body, #app-container, #app, #map { height: 100%; margin: 0; }
 #map { margin-right: 200px; }
-#menu { float: right; height: 100%; width: 200px; }
-#text { position: absolute; bottom: 0; left: 0;
+
+#menu {
+  float: right; height: 100%; width: 200px;
+  background-color: #ecab5f; color: white;
+}
+
+#text {
+  position: absolute; bottom: 0; left: 0;
   height: 30%; width: 30%; overflow-y: auto;
-  z-index: 2000; background: white;
-  border: 1px solid black; }
+  z-index: 2000; background: rgb(116, 71, 106, 0.8);
+  border-top-right-radius: 20px;
+  font-size: 24px; color: white; padding: 16px;
+}
 
 #homepage {
   position: absolute; top: 20%; bottom: 20%; left: 20%; right: 20%;
-  z-index: 2000; background: rgba(127, 127, 127, .8); border-radius: 20px;
+  z-index: 2000; background: rgba(172, 92, 66, 0.8); border-radius: 20px;
   color: white;
 }
 

@@ -88,7 +88,7 @@ class App extends React.Component {
       let graniteData = topojson.feature(topo, topo.objects.granite);
 
       L.geoJSON(bataliiData).addTo(map);
-      L.geoJSON(graniteData).addTo(map);
+      L.geoJSON(graniteData, {style: {color: '#59c1da'}}).addTo(map);
     });
 
     fetch('content.yaml')
