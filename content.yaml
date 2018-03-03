@@ -5,7 +5,10 @@ domnitori:
     secol: 13
     poza: 'Litovoi.jpg'
     geo:
-      - layer: "litovoi-layer"
+      - layer: granite_last
+        features:
+          - valahia
+          - valahia_sud
     text: |
       "Din punct de vedere al organizării politice, diploma ioaniţor
       certifică existenţa unei formaţiuni dintre care patru în dreapta
@@ -28,8 +31,6 @@ domnitori:
     nume: "Negru Voda"
     secol: 12
     portre: "img-url"
-    geo:
-      - layer: "negru-voda-layer"
     text: |
       "Negru Vodă a fost, potrivit legendei, fondatorul și primul domn al Țării
       Românești. Existența lui reală este controversată, făcând subiectul mai

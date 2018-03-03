@@ -7,6 +7,7 @@ class App extends React.Component {
   constructor(props) {
     super(props)
     this.state = {page: 'home'}
+    this.layers = []
   }
 
   render() {
@@ -18,6 +19,8 @@ class App extends React.Component {
     if(page == 'domnitori' || page == 'migratii') {
       record = content[page].filter((r) => r.id == subpage)[0]
     }
+
+    this.setLayersFor(record)
 
     let textBox = null
     if(record.text) {
@@ -85,17 +88,37 @@ class App extends React.Component {
   }
 
   componentDidMount() {
-    let map = L.map('map').setView([46, 25], 7);
+    this.map = L.map('map').setView([46, 25], 7);
 
     L.tileLayer('https://{s}.basemaps.cartocdn.com/light_all/{z}/{x}/{y}.png', {
         attribution: '&copy; <a href="http://osm.org/copyright">OpenStreetMap</a> contributors, &copy <a href="http://cartodb.com/attributions">CartoDB</a>'
-    }).addTo(map);
+    }).addTo(this.map);
 
     L.tileLayer('tiles/webmercator/{z}/{x}/{y}.png', {
         tms: true,
         attribution: '&copy; Muzeul Hărților'
-    }).addTo(map);
+    }).addTo(this.map);
 
+  }
+
+  setLayersFor(record) {
+    for(let l of this.layers) {
+      l.removeFrom(this.map)
+    }
+    this.layers = []
+
+    let {topo} = this.props
+
+    for(let layerDef of record.geo || []) {
+      console.log('LAYER', layerDef)
+      let layerData = topojson.feature(topo, topo.objects[layerDef.layer])
+      let filterFeatures = (feature) => {
+        return layerDef.features.indexOf(feature.properties.nume) > -1
+      }
+      let layer = L.geoJSON(layerData, {filter: filterFeatures})
+      layer.addTo(this.map)
+      this.layers.push(layer)
+    }
   }
 
 }
