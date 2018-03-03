@@ -4,14 +4,29 @@ import {render} from 'react-dom'
 
 class App extends React.Component {
 
+  constructor(props) {
+    super(props)
+    this.state = {page: 'home'}
+  }
+
   render() {
-    let {text, content} = this.state || {}
+    let {page, text, content} = this.state
     let {domnitori, migratii} = content || {}
 
     let textBox = null
     if(text) {
       textBox = (
         <div id="text">[{text}]</div>
+      )
+    }
+
+    let homePage = null
+    if(page == 'home') {
+      homePage = (
+        <div id="homepage">
+          <h1>Harta Școlastică</h1>
+          <h2>a Daciei și României de azi</h2>
+        </div>
       )
     }
 
@@ -47,6 +62,8 @@ class App extends React.Component {
         <div id="map"></div>
 
         {textBox}
+
+        {homePage}
 
       </div>
     )
