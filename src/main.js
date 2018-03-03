@@ -10,7 +10,8 @@ class App extends React.Component {
   }
 
   render() {
-    let {page, subpage, content} = this.state
+    let {content} = this.props
+    let {page, subpage} = this.state
     let {domnitori, migratii} = content || {}
 
     let record = {}
@@ -95,29 +96,26 @@ class App extends React.Component {
         attribution: '&copy; Muzeul Hărților'
     }).addTo(map);
 
-    fetch('vectori.topojson')
-    .then((resp) => { return resp.json() })
-    .then((topo) => {
-      let bataliiData = topojson.feature(topo, topo.objects.batalii);
-      let graniteData = topojson.feature(topo, topo.objects.granite);
-
-      L.geoJSON(bataliiData).addTo(map);
-      L.geoJSON(graniteData, {style: {color: '#59c1da'}}).addTo(map);
-    });
-
-    fetch('content.yaml')
-    .then((resp) => { return resp.text() })
-    .then((body) => {
-      let content = jsyaml.load(body);
-      this.setState({content})
-    });
   }
 
 }
 
 
 function main() {
-  render(React.createElement(App), document.querySelector('#app-container'))
+  fetch('vectori.topojson')
+  .then((resp) => { return resp.json() })
+  .then((topo) => {
+    fetch('content.yaml')
+    .then((resp) => { return resp.text() })
+    .then((body) => {
+      let content = jsyaml.load(body);
+      render(
+        <App topo={topo} content={content} />,
+        document.querySelector('#app-container')
+      )
+    });
+  });
+
 }
 
 window.main = main
