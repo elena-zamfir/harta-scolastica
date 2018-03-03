@@ -111,15 +111,26 @@ class App extends React.Component {
     }
     this.layers = []
 
+    let smallIcon = new L.Icon({
+       iconSize: [50, 50],
+       iconAnchor: [13, 27],
+       popupAnchor:  [1, -24],
+       iconUrl: 'poze/arme.png'
+    });
+
     let {topo} = this.props
 
     for(let layerDef of record.geo || []) {
-      console.log('LAYER', layerDef)
       let layerData = topojson.feature(topo, topo.objects[layerDef.layer])
       let filterFeatures = (feature) => {
+        console.log(feature.properties.nume)
         return layerDef.features.indexOf(feature.properties.nume) > -1
       }
-      let layer = L.geoJSON(layerData, {filter: filterFeatures})
+      let pointToLayer = function(feature, latlng) {
+        return L.marker(latlng, {icon: smallIcon});
+      }
+
+      let layer = L.geoJSON(layerData, {filter: filterFeatures, pointToLayer: pointToLayer, style: {color: '#59c1da', weight: 5}})
       layer.addTo(this.map)
       this.layers.push(layer)
     }
