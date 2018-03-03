@@ -102,10 +102,11 @@ class App extends React.Component {
 
 
 function main() {
-  fetch('vectori.topojson')
+  let t = new Date().getTime()
+  fetch('vectori.topojson?t='+t)
   .then((resp) => { return resp.json() })
   .then((topo) => {
-    fetch('content.yaml')
+    fetch('content.yaml?t='+t)
     .then((resp) => { return resp.text() })
     .then((body) => {
       let content = jsyaml.load(body);
