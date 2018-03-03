@@ -3,7 +3,7 @@ domnitori:
   - id: 'litovoi'
     nume: "Litovoi"
     secol: 13
-    portret: "img-url"
+    poza: 'Litovoi.jpg'
     geo:
       - layer: "litovoi-layer"
     text: |

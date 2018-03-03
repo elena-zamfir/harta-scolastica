@@ -13,12 +13,22 @@ class App extends React.Component {
     let {page, subpage, content} = this.state
     let {domnitori, migratii} = content || {}
 
-    let textBox = null
+    let record = {}
     if(page == 'domnitori' || page == 'migratii') {
-      let record = content[page].filter((r) => r.id == subpage)[0]
+      record = content[page].filter((r) => r.id == subpage)[0]
+    }
 
+    let textBox = null
+    if(record.text) {
       textBox = (
         <div id="text">{record.text}</div>
+      )
+    }
+
+    let pozaBox = null
+    if(record.poza) {
+      pozaBox = (
+        <div id="poza"><img src={"poze/"+record.poza}/></div>
       )
     }
 
@@ -64,6 +74,8 @@ class App extends React.Component {
         <div id="map"></div>
 
         {textBox}
+
+        {pozaBox}
 
         {homePage}
 
