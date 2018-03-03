@@ -8,6 +8,13 @@ class App extends React.Component {
     let {text, content} = this.state || {}
     let {domnitori, migratii} = content || {}
 
+    let textBox = null
+    if(text) {
+      textBox = (
+        <div id="text">[{text}]</div>
+      )
+    }
+
     return (
       <div id="app">
 
@@ -39,7 +46,7 @@ class App extends React.Component {
 
         <div id="map"></div>
 
-        <div id="text">{text}</div>
+        {textBox}
 
       </div>
     )
