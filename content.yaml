@@ -51,7 +51,7 @@ domnitori:
 
   - id: 'stefan_cel_mare'
     nume: "Ștefan cel Mare"
-    poza: "img-url"
+    poza: "stefancelmare.jpg"
     geo: 
         - layer: batalii
           features:
@@ -63,7 +63,7 @@ domnitori:
 
   - id: 'vlad_tepes'
     nume: "Vlad Tepes"
-    poza: "img-url"
+    poza: "tepes.jpg"
     geo: 
         - layer: batalii
           features:
