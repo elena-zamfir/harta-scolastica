@@ -6,7 +6,7 @@ import subprocess
 import tempfile
 
 
-LAYERS = ['batalii', 'granite']
+LAYERS = ['batalii', 'granite_last']
 REPO = Path(__file__).resolve().parent
 
 
