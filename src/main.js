@@ -130,6 +130,12 @@ class App extends React.Component {
       layer.addTo(this.map)
       this.layers.push(layer)
     }
+
+    for(let m of record.markers || []) {
+      let marker = L.marker([m.position.lat, m.position.lng])
+      marker.addTo(this.map)
+      marker.bindPopup(m.text)
+    }
   }
 
 }
