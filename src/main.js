@@ -126,6 +126,7 @@ class App extends React.Component {
       let marker = L.marker([m.position.lat, m.position.lng])
       marker.addTo(this.map)
       marker.bindPopup(m.text)
+      this.layers.push(marker)
     }
   }
 
