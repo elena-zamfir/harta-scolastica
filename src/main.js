@@ -1,7 +1,3 @@
-import React from 'react'
-import {render} from 'react-dom'
-
-
 class App extends React.Component {
 
   constructor(props) {
@@ -148,7 +144,7 @@ function main() {
     .then((resp) => { return resp.text() })
     .then((body) => {
       let content = jsyaml.load(body);
-      render(
+      ReactDOM.render(
         <App topo={topo} content={content} />,
         document.querySelector('#app-container')
       )
