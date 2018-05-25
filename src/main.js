@@ -100,7 +100,8 @@ class App extends React.Component {
     for(let m of record.markers || []) {
       let marker = L.marker([m.position.lat, m.position.lng])
       marker.addTo(this.map)
-      marker.bindPopup(m.text)
+      let content = `<img style="float: right" src="poze/${m.poza}"> ${m.text}`
+      marker.bindPopup(content)
       this.layers.push(marker)
     }
   }
