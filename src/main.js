@@ -94,7 +94,7 @@ class App extends React.Component {
         attribution: '&copy; <a href="http://osm.org/copyright">OpenStreetMap</a> contributors, &copy <a href="http://cartodb.com/attributions">CartoDB</a>'
     }).addTo(this.map);
 
-    L.tileLayer('tiles/webmercator/{z}/{x}/{y}.png', {
+    L.tileLayer('https://qp.grep.ro/harta-ro-scolastica/app/tiles/webmercator/{z}/{x}/{y}.png', {
         tms: true,
         attribution: '&copy; Muzeul Hărților'
     }).addTo(this.map);
