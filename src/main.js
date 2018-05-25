@@ -39,8 +39,8 @@ class App extends React.Component {
           <h1>Harta Școlastică</h1>
           <h2>a Daciei și României de azi</h2>
           <div id="homepage-buttons">
-            <a href='#' onClick={() => {this.setState({page: 'domnitori', subpage: 'litovoi'})}}>Litovoi</a>
-            <a href='#' onClick={() => {this.setState({page: 'domnitori', subpage: 'stefan_cel_mare'})}}>Ștefan cel Mare</a>
+            <a href='#' onClick={(e) => {e.preventDefault(); this.setState({page: 'domnitori', subpage: 'litovoi'})}}>Litovoi</a>
+            <a href='#' onClick={(e) => {e.preventDefault(); this.setState({page: 'domnitori', subpage: 'stefan_cel_mare'})}}>Ștefan cel Mare</a>
           </div>
         </div>
       )
@@ -55,7 +55,7 @@ class App extends React.Component {
           <h2>Domnitori</h2>
           {(domnitori || []).map((record) => (
             <p>
-              <a href='#' onClick={() => {this.setState({page: 'domnitori', subpage: record.id})}}>
+              <a href='#' onClick={(e) => {e.preventDefault(); this.setState({page: 'domnitori', subpage: record.id})}}>
                 {record.nume}
               </a>
             </p>
@@ -64,7 +64,7 @@ class App extends React.Component {
           <h2>Năvălirea Barbarilor</h2>
           {(migratii || []).map((record) => (
             <p>
-              <a href='#' onClick={() => {this.setState({page: 'migratii', subpage: record.id})}}>
+              <a href='#' onClick={(e) => {e.preventDefault(); this.setState({page: 'migratii', subpage: record.id})}}>
                 {record.nume}
               </a>
             </p>
