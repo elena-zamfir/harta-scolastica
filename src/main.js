@@ -18,25 +18,6 @@ class App extends React.Component {
 
     this.setLayersFor(record)
 
-    let textBox = null
-    if(record.text) {
-      textBox = (
-        <div id="text">{record.text}</div>
-      )
-    }
-
-    let pozaBox = null
-    if(record.poza) {
-      pozaBox = (
-        <div id="poza"><img src={"poze/"+record.poza}/></div>
-      )
-    }
-
-    let homePage = null
-    if(page == 'home') {
-      homePage = <div />
-    }
-
     return (
       <div id="app">
 
@@ -67,12 +48,6 @@ class App extends React.Component {
         </div>
 
         <div id="map"></div>
-
-        {textBox}
-
-        {pozaBox}
-
-        {homePage}
 
       </div>
     )
