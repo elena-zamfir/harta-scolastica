@@ -34,16 +34,7 @@ class App extends React.Component {
 
     let homePage = null
     if(page == 'home') {
-      homePage = (
-        <div id="homepage">
-          <h1>Harta Școlastică</h1>
-          <h2>a Daciei și României de azi</h2>
-          <div id="homepage-buttons">
-            <a href='#' onClick={(e) => {e.preventDefault(); this.setState({page: 'domnitori', subpage: 'litovoi'})}}>Litovoi</a>
-            <a href='#' onClick={(e) => {e.preventDefault(); this.setState({page: 'domnitori', subpage: 'stefan_cel_mare'})}}>Ștefan cel Mare</a>
-          </div>
-        </div>
-      )
+      homePage = <div />
     }
 
     return (
