@@ -105,6 +105,7 @@ class App extends React.Component {
 
 
 async function main() {
+ try {
   let t = new Date().getTime()
   let resp = await fetch('content.yaml?t='+t)
   let body = await resp.text()
@@ -118,6 +119,9 @@ async function main() {
     <App content={content} />,
     document.querySelector('#app-container')
   );
+ } catch(e) {
+   console.error(e)
+ }
 }
 
 window.main = main
