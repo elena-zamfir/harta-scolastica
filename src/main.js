@@ -52,9 +52,7 @@ class App extends React.Component {
   componentDidMount() {
     this.map = L.map('map').setView([46, 25], 7);
 
-    L.tileLayer('https://{s}.basemaps.cartocdn.com/light_all/{z}/{x}/{y}.png', {
-        attribution: '&copy; <a href="http://osm.org/copyright">OpenStreetMap</a> contributors, &copy <a href="http://cartodb.com/attributions">CartoDB</a>'
-    }).addTo(this.map);
+    L.tileLayer('https://server.arcgisonline.com/ArcGIS/rest/services/NatGeo_World_Map/MapServer/tile/{z}/{y}/{x}', {attribution: 'Tiles &copy; Esri &mdash; National Geographic, Esri, DeLorme, NAVTEQ, UNEP-WCMC, USGS, NASA, ESA, METI, NRCAN, GEBCO, NOAA, iPC', maxZoom: 16}).addTo(this.map);
 
     L.tileLayer('https://qp.grep.ro/harta-ro-scolastica/app/tiles/webmercator/{z}/{x}/{y}.png', {
         tms: true,
