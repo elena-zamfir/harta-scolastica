@@ -79,31 +79,6 @@ class App extends React.Component {
        popupAnchor:  [1, -24],
        iconUrl: 'poze/arme.png'
     });
-
-    let {topo} = this.props
-
-    for(let layerDef of record.geo || []) {
-      let layerData = topojson.feature(topo, topo.objects[layerDef.layer])
-      let filterFeatures = (feature) => {
-        console.log(feature.properties.nume)
-        return layerDef.features.indexOf(feature.properties.nume) > -1
-      }
-      let pointToLayer = function(feature, latlng) {
-        return L.marker(latlng, {icon: smallIcon});
-      }
-
-      let layer = L.geoJSON(layerData, {filter: filterFeatures, pointToLayer: pointToLayer, style: {color: '#59c1da', weight: 5}})
-      layer.addTo(this.map)
-      this.layers.push(layer)
-    }
-
-    for(let m of record.markers || []) {
-      let marker = L.marker([m.position.lat, m.position.lng])
-      marker.addTo(this.map)
-      let content = `<img style="float: right" src="poze/${m.poza}"> ${m.text}`
-      marker.bindPopup(content)
-      this.layers.push(marker)
-    }
   }
 
 }
@@ -111,20 +86,15 @@ class App extends React.Component {
 
 function main() {
   let t = new Date().getTime()
-  fetch('vectori.topojson?t='+t)
-  .then((resp) => { return resp.json() })
-  .then((topo) => {
-    fetch('content.yaml?t='+t)
-    .then((resp) => { return resp.text() })
-    .then((body) => {
-      let content = jsyaml.load(body);
-      ReactDOM.render(
-        <App topo={topo} content={content} />,
-        document.querySelector('#app-container')
-      )
-    });
+  fetch('content.yaml?t='+t)
+  .then((resp) => { return resp.text() })
+  .then((body) => {
+    let content = jsyaml.load(body);
+    ReactDOM.render(
+      <App content={content} />,
+      document.querySelector('#app-container')
+    )
   });
-
 }
 
 window.main = main

@@ -4,11 +4,6 @@ domnitori:
     nume: "Litovoi"
     secol: 13
     poza: 'Litovoi.jpg'
-    geo:
-      - layer: granite_last
-        features:
-          - valahia
-          - valahia_sud
     text: |
       "Din punct de vedere al organizării politice, diploma ioaniţor
       certifică existenţa unei formaţiuni dintre care patru în dreapta
@@ -51,26 +46,12 @@ domnitori:
 
   - id: 'stefan_cel_mare'
     nume: "Ștefan cel Mare"
-
-    markers:
-      - position:
-          lat: 47.4100
-          lng: 26.2173
-
-        text: "bătălia de la baia"
-        poza: "stefancelmare.jpg"
-
     text: |
         "Stefan cel Mare a fost domnul Moldovei între anii 1457 și 1504, domnind timp de 47 de ani, cea mai lungă domnie din epoca medievală din Țările Române. Pe parcursul domniei a dus peste 40 de războaie sau bătălii, marea lor majoritate victorioase. Ștefan cel Mare este considerat o personalitate marcantă a istoriei României, înzestrată cu mari calități de om de stat, diplomat și conducător militar. Aceste calități i-au permis să treacă cu bine peste momentele de criză majoră, generate fie de intervențiile militare ale statelor vecine fie de încercări, din interior sau sprijinite din exteriorul țării, de îndepărtare a sa de la domnie. În timpul domniei sale Moldova atinge apogeul dezvoltării sale statale, cunoscând o perioadă îndelungată de stabilitate internă, prosperitate economică și liniște socială."
 
   - id: 'vlad_tepes'
     nume: "Vlad Tepes"
     poza: "tepes.jpg"
-    geo: 
-        - layer: batalii
-          features:
-                  - vaslui
-                  - targoviste
     text: |
         "1456-1462 În timpul domniei sale, Țara Românească și-a obținut temporar independența față de Imperiul Otoman. Supranumele „Dracula” se datorează unei deformări a titlului de cavaler al ordinului Dragonului, moștenit de la tatăl său. În 1459 Țepeș refuză să mai plătească tribut turcilor (10.000 galbeni anual). Se pare că această răzvrătire s-a datorat existenței unui proiect de cruciadă împotriva otomanilor, cruciadă susținută de Papă."
 
