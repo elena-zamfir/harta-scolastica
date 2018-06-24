@@ -31,14 +31,16 @@ class App extends React.Component {
       <div id="app">
 
         <div id="menu">
-          {(perioade || []).map((record) => (
-            <p key={record.id}>
-              <Bulina />
-              <a href='#' onClick={(e) => {e.preventDefault(); this.setState({page: 'perioade', subpage: record.id})}}>
-                {record.nume}
-              </a>
-            </p>
-          ))}
+          <div id="menu-content">
+            {(perioade || []).map((record) => (
+              <p key={record.id}>
+                <Bulina />
+                <a href='#' onClick={(e) => {e.preventDefault(); this.setState({page: 'perioade', subpage: record.id})}}>
+                  {record.nume}
+                </a>
+              </p>
+            ))}
+          </div>
         </div>
 
         <div id="map"></div>
