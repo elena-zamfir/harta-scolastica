@@ -9,10 +9,10 @@ class App extends React.Component {
   render() {
     let {content} = this.props
     let {page, subpage} = this.state
-    let {domnitori, migratii} = content || {}
+    let {perioade} = content || {}
 
     let record = {}
-    if(page == 'domnitori' || page == 'migratii') {
+    if(page == 'perioade') {
       record = content[page].filter((r) => r.id == subpage)[0]
     }
 
@@ -22,29 +22,13 @@ class App extends React.Component {
       <div id="app">
 
         <div id="menu">
-          <h2>România Mare</h2>
-
-          <h2>Domnitori</h2>
-          {(domnitori || []).map((record) => (
-            <p>
-              <a href='#' onClick={(e) => {e.preventDefault(); this.setState({page: 'domnitori', subpage: record.id})}}>
+          {(perioade || []).map((record) => (
+            <p key={record.id}>
+              <a href='#' onClick={(e) => {e.preventDefault(); this.setState({page: 'perioade', subpage: record.id})}}>
                 {record.nume}
               </a>
             </p>
           ))}
-
-          <h2>Năvălirea Barbarilor</h2>
-          {(migratii || []).map((record) => (
-            <p>
-              <a href='#' onClick={(e) => {e.preventDefault(); this.setState({page: 'migratii', subpage: record.id})}}>
-                {record.nume}
-              </a>
-            </p>
-          ))}
-
-
-          <h2>Dacia Romană</h2>
-
         </div>
 
         <div id="map"></div>
@@ -84,17 +68,20 @@ class App extends React.Component {
 }
 
 
-function main() {
+async function main() {
   let t = new Date().getTime()
-  fetch('content.yaml?t='+t)
-  .then((resp) => { return resp.text() })
-  .then((body) => {
-    let content = jsyaml.load(body);
-    ReactDOM.render(
-      <App content={content} />,
-      document.querySelector('#app-container')
-    )
-  });
+  let resp = await fetch('content.yaml?t='+t)
+  let body = await resp.text()
+  let content = jsyaml.load(body);
+
+  for (let p of content.perioade) {
+    p.layer = await (await fetch(`layers/${p.id}.geojson`)).json()
+  }
+
+  ReactDOM.render(
+    <App content={content} />,
+    document.querySelector('#app-container')
+  );
 }
 
 window.main = main
