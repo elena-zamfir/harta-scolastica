@@ -93,8 +93,7 @@ class App extends React.Component {
       bindFeaturePopup(layer, feature)
     }
 
-    let layer = L.geoJSON(record.layer, {onEachFeature: pointToLayer, style: {color: '#59c1da', weight: 5}})
-    console.log(this.map)
+    let layer = L.geoJSON(record.layer, {onEachFeature: pointToLayer, style: {color: 'white', weight: 5}})
     layer.addTo(this.map)
     this.layers.push(layer)
   }
