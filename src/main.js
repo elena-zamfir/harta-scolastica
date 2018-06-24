@@ -33,7 +33,7 @@ class App extends React.Component {
         <div id="menu">
           <div id="menu-content">
             {(perioade || []).map((record) => (
-              <p key={record.id}>
+              <p key={record.id} className={(record.id === subpage) ? 'selected' : ''}>
                 <Bulina />
                 <a href='#' onClick={(e) => {e.preventDefault(); this.setState({page: 'perioade', subpage: record.id})}}>
                   {record.nume}
@@ -60,8 +60,6 @@ class App extends React.Component {
         tms: true,
         attribution: '&copy; Muzeul Hărților'
     }).addTo(this.map);
-
-    console.log(this.map)
 
   }
 
