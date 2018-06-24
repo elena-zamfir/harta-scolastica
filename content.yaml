@@ -3,12 +3,6 @@ perioade:
 
 
 
- - id: 'domnitori'
-    nume: "EVUL MEDIU"
-
-
- - id: 'migratii'
-    nume: "MIGRAȚII"
 
  - id: 'dacia'
     nume: "DACIA"
