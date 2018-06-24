@@ -76,8 +76,7 @@ class App extends React.Component {
        iconUrl: 'poze/arme.png'
     });
 
-    let pointToLayer = function(feature, latlng) {
-      let marker = L.marker(latlng)
+    let bindFeaturePopup = function(marker, feature) {
       let p = feature.properties
       let content = `
         <h2>${p.titlu}</h2>
@@ -90,10 +89,13 @@ class App extends React.Component {
         <div class="clearfix"></div>
       `
       marker.bindPopup(content)
-      return marker
     }
 
-    let layer = L.geoJSON(record.layer, {pointToLayer: pointToLayer, style: {color: '#59c1da', weight: 5}})
+    let pointToLayer = function(feature, layer) {
+      bindFeaturePopup(layer, feature)
+    }
+
+    let layer = L.geoJSON(record.layer, {onEachFeature: pointToLayer, style: {color: '#59c1da', weight: 5}})
     console.log(this.map)
     layer.addTo(this.map)
     this.layers.push(layer)
