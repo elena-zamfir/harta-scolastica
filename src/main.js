@@ -1,8 +1,8 @@
 function Bulina({}) {
   return (
-    <span class="bulina">
-      <span class="bulina-circle"></span>
-      <span class="bulina-dot"></span>
+    <span className="bulina">
+      <span className="bulina-circle"></span>
+      <span className="bulina-dot"></span>
     </span>
   )
 }
