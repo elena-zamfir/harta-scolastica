@@ -16,7 +16,7 @@ class App extends React.Component {
       record = content[page].filter((r) => r.id == subpage)[0]
     }
 
-    this.setLayersFor(record)
+    if(this.map) this.setLayersFor(record)
 
     return (
       <div id="app">
@@ -49,6 +49,8 @@ class App extends React.Component {
         attribution: '&copy; Muzeul Hărților'
     }).addTo(this.map);
 
+    console.log(this.map)
+
   }
 
   setLayersFor(record) {
@@ -63,6 +65,28 @@ class App extends React.Component {
        popupAnchor:  [1, -24],
        iconUrl: 'poze/arme.png'
     });
+
+    let pointToLayer = function(feature, latlng) {
+      let marker = L.marker(latlng)
+      let p = feature.properties
+      let content = `
+        <h2>${p.titlu}</h2>
+        <div class="poza">
+          <img src="poze/${p.imagine}">
+        </div>
+        <div class="text">
+          ${p.text}
+        </div>
+        <div class="clearfix"></div>
+      `
+      marker.bindPopup(content)
+      return marker
+    }
+
+    let layer = L.geoJSON(record.layer, {pointToLayer: pointToLayer, style: {color: '#59c1da', weight: 5}})
+    console.log(this.map)
+    layer.addTo(this.map)
+    this.layers.push(layer)
   }
 
 }
