@@ -67,11 +67,11 @@ class App extends React.Component {
     }
     this.layers = []
 
-    let smallIcon = new L.Icon({
-       iconSize: [50, 50],
-       iconAnchor: [13, 27],
-       popupAnchor:  [1, -24],
-       iconUrl: 'poze/arme.png'
+    let icon = new L.Icon({
+       iconSize: [30, 41],
+       iconAnchor: [15, 41],
+       popupAnchor:  [0, -34],
+       iconUrl: 'marker.png'
     });
 
     let bindFeaturePopup = function(marker, feature) {
@@ -89,11 +89,15 @@ class App extends React.Component {
       marker.bindPopup(content)
     }
 
-    let pointToLayer = function(feature, layer) {
+    let onEachFeature = function(feature, layer) {
       bindFeaturePopup(layer, feature)
     }
 
-    let layer = L.geoJSON(record.layer, {onEachFeature: pointToLayer, style: {color: 'white', weight: 5}})
+    let pointToLayer = function(feature, latlng) {
+      return L.marker(latlng, {icon: icon})
+    }
+
+    let layer = L.geoJSON(record.layer, {onEachFeature: onEachFeature, pointToLayer: pointToLayer, style: {color: 'white', weight: 5}})
     layer.addTo(this.map)
     this.layers.push(layer)
   }
