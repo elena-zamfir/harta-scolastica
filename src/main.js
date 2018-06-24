@@ -1,3 +1,12 @@
+function Bulina({}) {
+  return (
+    <span class="bulina">
+      <span class="bulina-circle"></span>
+      <span class="bulina-dot"></span>
+    </span>
+  )
+}
+
 class App extends React.Component {
 
   constructor(props) {
@@ -24,6 +33,7 @@ class App extends React.Component {
         <div id="menu">
           {(perioade || []).map((record) => (
             <p key={record.id}>
+              <Bulina />
               <a href='#' onClick={(e) => {e.preventDefault(); this.setState({page: 'perioade', subpage: record.id})}}>
                 {record.nume}
               </a>
