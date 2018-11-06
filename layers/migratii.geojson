@@ -94,92 +94,6 @@
     {
       "type": "Feature",
       "properties": {
-        "titlu": "Hunii (300-400 e.n.)",
-        "text": "Hunii erau o confederație de trupe de războinici nomazi, care au contribuit la prăbușirea Imperiului Roman de Vest. Imperiul Hun s-a constituit sub conducerea regelui Attila, și cuprindea teritorii vaste în Europa Centrală și de Est, până aproape de Franța actuală.",
-        "imagine": "hun.jpg"
-      },
-      "geometry": {
-        "type": "LineString",
-        "coordinates": [
-          [
-            48.251953125,
-            53.592504809039376
-          ],
-          [
-            45.439453125,
-            51.069016659603896
-          ],
-          [
-            41.572265625,
-            49.83798245308484
-          ],
-          [
-            35.419921875,
-            49.66762782262194
-          ],
-          [
-            26.19140625,
-            48.63290858589535
-          ],
-          [
-            22.8515625,
-            47.635783590864854
-          ],
-          [
-            16.083984375,
-            48.10743118848039
-          ],
-          [
-            12.12890625,
-            49.66762782262194
-          ]
-        ]
-      }
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "titlu": "Pecenegii sec (IX-X)",
-        "text": "Confederaţie tribală de neam turcic, Pecenegii duceau o viaţă predominant nomadă, deplasîndu-se în funcţie de anotimp, împreună cu familiile, turmele şi întregul avut, de-a lungul unor trasee pre-stabilite, în căutare de terenuri de păşunat adecvate. Potrivit descrierilor unor autori contemporani, pecenegii nu dispuneau de locuinţe stabile, adăpostindu-se în corturi şi în căruţe sau care.",
-        "imagine": "pecenegi.jpg"
-      },
-      "geometry": {
-        "type": "LineString",
-        "coordinates": [
-          [
-            59.4140625,
-            54.059387886623576
-          ],
-          [
-            56.162109375,
-            52.908902047770255
-          ],
-          [
-            50.361328125,
-            50.792047064406866
-          ],
-          [
-            41.66015625,
-            49.03786794532644
-          ],
-          [
-            36.123046875,
-            48.980216985374994
-          ],
-          [
-            29.179687499999996,
-            47.69497434186282
-          ],
-          [
-            22.763671875,
-            46.800059446787316
-          ]
-        ]
-      }
-    },
-    {
-      "type": "Feature",
-      "properties": {
         "titlu": "Bulgarii (sec VII)",
         "text": "Bulgarii au avut o puternică influență în Balcani în secolul al VII-lea. Cultura lor era una de tip nomad-ecvestru. Se crede că religia bulgară originară era una monoteistă.",
         "imagine": "bulgari.jpg"
@@ -314,37 +228,15 @@
     {
       "type": "Feature",
       "properties": {
-        "titlu": "Avarii (sec VI-VIII)",
-        "text": "Avarii apar menționați atât în cronicile chineze cât și în cele bizantine. Originea lor nu este clară, existând presupunerea că aparțin unei linii turcice, indo-europene sau mongole. Ei au lăsat în Transilvania urme ale unor așezări denumite “presaka” (“prisăci”),  care constau în zone împădurite lăsate în paragină, prevăzute cu locuri supravegheate.",
-        "imagine": "avari.jpg"
+        "titlu": "Ungarii sec (VIII-X)",
+        "text": "Ungarii apar în sursele arabe și bizantine în sec al X-lea; ei descind din ramura ugrică a familiei de triburi fino-ugrice, care, la rândul lor, alcătuiau o branşă a populaţiilor de limbă uralică. Caii aveau un rol central în economia și riturile maghiarilor. În necropolele din Panonia au fost găsite umeroase piese de harnașament împreună cu cranii, oasele de la picioare sau chiar pielea calului umplută cu paie.",
+        "imagine": "unguri.jpg"
       },
       "geometry": {
-        "type": "LineString",
+        "type": "Point",
         "coordinates": [
-          [
-            32.5634765625,
-            48.8936153614802
-          ],
-          [
-            28.212890625,
-            48.019324184801185
-          ],
-          [
-            25.356445312499996,
-            47.66538735632654
-          ],
-          [
-            23.510742187499996,
-            46.46813299215554
-          ],
-          [
-            21.884765625,
-            45.920587344733654
-          ],
-          [
-            16.962890625,
-            45.644768217751924
-          ]
+          80.771484375,
+          68.00757101804004
         ]
       }
     },
@@ -356,36 +248,70 @@
         "imagine": "gepizi.jpg"
       },
       "geometry": {
-        "type": "LineString",
+        "type": "Point",
         "coordinates": [
-          [
-            35.947265625,
-            60.1524422143808
-          ],
-          [
-            35.77148437499999,
-            56.607885465009254
-          ],
-          [
-            35.419921875,
-            54.36775852406841
-          ],
-          [
-            30.761718749999996,
-            49.210420445650286
-          ],
-          [
-            28.125,
-            47.21956811231547
-          ],
-          [
-            23.203125,
-            45.398449976304086
-          ],
-          [
-            20.7421875,
-            44.59046718130883
-          ]
+          35.77148437499999,
+          60.06484046010452
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "titlu": "Pecenegii sec (IX-X)",
+        "text": "Confederaţie tribală de neam turcic, Pecenegii duceau o viaţă predominant nomadă, deplasîndu-se în funcţie de anotimp, împreună cu familiile, turmele şi întregul avut, de-a lungul unor trasee pre-stabilite, în căutare de terenuri de păşunat adecvate. Potrivit descrierilor unor autori contemporani, pecenegii nu dispuneau de locuinţe stabile, adăpostindu-se în corturi şi în căruţe sau care.",
+        "imagine": "pecenegi.jpg"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          58.798828125,
+          53.4357192066942
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "text": "Avarii apar menționați atât în cronicile chineze cât și în cele bizantine. Originea lor nu este clară, existând presupunerea că aparțin unei linii turcice, indo-europene sau mongole. Ei au lăsat în Transilvania urme ale unor așezări denumite “presaka” (“prisăci”),  care constau în zone împădurite lăsate în paragină, prevăzute cu locuri supravegheate.",
+        "titlu": "Avarii (sec VI-VIII)",
+        "imagine": "avari.jpg"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          32.607421875,
+          48.73445537176822
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "titlu": "Hunii (300-400 e.n.)",
+        "text": "Hunii erau o confederație de trupe de războinici nomazi, care au contribuit la prăbușirea Imperiului Roman de Vest. Imperiul Hun s-a constituit sub conducerea regelui Attila, și cuprindea teritorii vaste în Europa Centrală și de Est, până aproape de Franța actuală.",
+        "imagine": "hun.jpg"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          120.673828125,
+          63.66576033778838
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "titlu": "Bulgarii (sec VII)",
+        "text": "Bulgarii au avut o puternică influență în Balcani în secolul al VII-lea. Cultura lor era una de tip nomad-ecvestru. Se crede că religia bulgară originară era una monoteistă.",
+        "imagine": "bulgari.jpg"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          43.758544921875,
+          43.32517767999296
         ]
       }
     }
