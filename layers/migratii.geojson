@@ -1,1 +1,393 @@
-{"type":"FeatureCollection","features":[{"type":"Feature","properties":{"stroke":"#555555","stroke-width":2,"stroke-opacity":1,"fill":"#555555","fill-opacity":0.5,"titlu":"Hunii (300-400 e.n.)","text":"Hunii erau o confederație de trupe de războinici nomazi, care au contribuit la prăbușirea Imperiului Roman de Vest. Imperiul Hun s-a constituit sub conducerea regelui Attila, și cuprindea teritorii vaste în Europa Centrală și de Est, până aproape de Franța actuală.","imagine":"hun.jpg"},"geometry":{"type":"Polygon","coordinates":[[[10.019531249999998,54.901882187385006],[8.964843749999998,51.80861475198521],[9.667968749999998,50.65294336725709],[11.074218749999998,49.410973199695846],[14.326171874999996,48.545705491847464],[18.632812499999996,48.1367666796927],[20.917968749999996,47.368594345213374],[22.148437499999996,46.34692761055673],[23.818359375,45.98169518512228],[26.103515624999996,45.98169518512228],[28.124999999999996,46.042735653846506],[29.443359375,47.42808726171425],[33.22265624999999,48.07807894349862],[34.453125,47.724544549099676],[37.265625,46.830133640447386],[40.078125,46.164614496897094],[43.06640624999999,45.98169518512228],[45.703125,46.22545288226939],[47.109375,47.368594345213374],[48.603515625,49.23912083246698],[49.833984375,52.72298552457069],[48.779296875,54.44449176335762],[34.01367187499999,56.04749958329888],[28.30078125,55.30413773740139],[22.939453125,55.65279803318954],[17.402343749999996,55.20395325785898],[12.919921874999998,55.25407706707269],[10.019531249999998,54.901882187385006]]]}},{"type":"Feature","properties":{"titlu":"Gepizii (sec. V)v","text":"Iordanes, în Getica spune despre gepizi: „Și dacă mă întrebi cum sunt rude goții cu gepizii, în câteva cuvinte îți povestesc ... goții, conduși de regele Berig cu 3 nave au plecat de pe insula Scandza (Scandinavia) și au trecut în Gotiscandaza. Una  dintre  cele 3 nave a întârziat și astfel a dat numele unui popor. În  limba lor leneș înseamnă „gepanta”. Astfel, cu trecerea timpului s-a născut denumirea de gepizi. Și ei provin din triburile goților...” 2. În odele anglo-saxone (Beowulf și Widsith), în  toponimele longobarde, dar și în documente grecești și latine numele lor provine din cuvântul „geba” sau „giban” cea ce înseamnă „a da”, „a dărui”, „generos” sau „darnic”.","imagine":"gepizi.jpg"},"geometry":{"type":"Polygon","coordinates":[[[21.016845703125014,47.092565552235676],[20.225830078125014,46.09609080214316],[19.962158203125018,45.66780526567164],[19.962158203125018,45.08127861241874],[20.357666015625018,44.23732831822535],[20.841064453125018,43.413028684751424],[22.291259765625018,43.092960677116295],[24.927978515625014,42.99661231842139],[27.520751953125014,43.60426186809618],[28.135986328125014,44.42593442145313],[28.399658203125018,45.452424241343074],[28.004150390625014,46.70220215164343],[24.971923828125014,47.50978034953476],[23.126220703125014,47.746711194756],[21.016845703125014,47.42065432071318],[21.016845703125014,47.092565552235676]]]}},{"type":"Feature","properties":{"titlu":"Avarii (sec VI-VIII)","imagine":"avari.jpg","text":"Avarii apar menționați atât în cronicile chineze cât și în cele bizantine. Originea lor nu este clară, existând presupunerea că aparțin unei linii turcice, indo-europene sau mongole. Ei au lăsat în Transilvania urme ale unor așezări denumite “presaka” (“prisăci”),  care constau în zone împădurite lăsate în paragină, prevăzute cu locuri supravegheate."},"geometry":{"type":"Polygon","coordinates":[[[15.457763671875039,49.31796095602269],[14.227294921875039,47.80577611936804],[15.369873046875039,45.882360730184],[18.18237304687504,44.39454219215587],[22.66479492187504,44.58264281958415],[28.553466796875046,46.36967413462377],[33.29956054687504,48.45106561953216],[32.86010742187504,50.226123744371336],[31.10229492187504,51.50190410761809],[22.75268554687504,52.15371445951162],[17.21557617187504,51.337475662965204],[15.457763671875039,49.31796095602269]]]}},{"type":"Feature","properties":{"titlu":"Bulgarii (sec VII)","text":"Bulgarii au avut o puternică influență în Balcani în secolul al VII-lea. Cultura lor era una de tip nomad-ecvestru. Se crede că religia bulgară originară era una monoteistă.","imagine":"bulgari.jpg"},"geometry":{"type":"Polygon","coordinates":[[[39.7705078125,50.45750402042056],[37.39746093749999,47.279229002570844],[38.89160156249999,45.706179285330855],[39.85839843749999,43.83452678223682],[43.3740234375,41.902277040963696],[46.8896484375,41.96765920367816],[48.9111328125,43.26120612479979],[51.10839843749999,45.213003555993964],[50.7568359375,48.16608541901255],[49.3505859375,49.49667452747047],[44.60449218749999,51.069016659603896],[39.7705078125,50.45750402042056]]]}},{"type":"Feature","properties":{"titlu":"Ungarii sec (VIII-X)","text":"Ungarii apar în sursele arabe și bizantine în sec al X-lea; ei descind din ramura ugrică a familiei de triburi fino-ugrice, care, la rândul lor, alcătuiau o branşă a populaţiilor de limbă uralică. Caii aveau un rol central în economia și riturile maghiarilor. În necropolele din Panonia au fost găsite umeroase piese de harnașament împreună cu cranii, oasele de la picioare sau chiar pielea calului umplută cu paie.","imagine":"unguri.jpg"},"geometry":{"type":"Polygon","coordinates":[[[11.865234375000018,48.864714761802794],[14.589843750000014,48.40003249610685],[15.820312500000012,48.74894534343291],[19.687500000000014,50.12057809796008],[26.455078125000014,52.16045455774706],[35.947265625000014,56.46249048388979],[43.505859375000014,59.84481485969108],[88.76953125000003,67.5421666883853],[88.59375000000001,69.90011762668541],[75.76171875000001,71.01695975726373],[48.69140625000002,68.52823492039876],[43.769531250000014,66.79190947341795],[33.222656250000014,65.36683689226321],[21.621093750000014,58.81374171570782],[18.808593750000014,55.97379820507658],[15.468750000000014,54.87660665410869],[11.865234375000018,48.864714761802794]]]}},{"type":"Feature","properties":{"titlu":"Pecenegii sec (IX-X)","text":"Confederaţie tribală de neam turcic, Pecenegii duceau o viaţă predominant nomadă, deplasîndu-se în funcţie de anotimp, împreună cu familiile, turmele şi întregul avut, de-a lungul unor trasee pre-stabilite, în căutare de terenuri de păşunat adecvate. Potrivit descrierilor unor autori contemporani, pecenegii nu dispuneau de locuinţe stabile, adăpostindu-se în corturi şi în căruţe sau care.","imagine":"pecenegi.jpg"},"geometry":{"type":"Polygon","coordinates":[[[31.90429687499999,52.24125614966341],[36.21093749999999,48.19538740833336],[40.25390624999999,46.89023157359399],[43.24218749999999,46.34692761055673],[48.07617187499999,46.89023157359399],[59.06249999999999,51.31688050404585],[60.468749999999986,54.49556752187406],[47.02148437499999,54.34214886448341],[41.83593749999999,55.00282580979323],[31.90429687499999,52.24125614966341]]]}},{"type":"Feature","properties":{"titlu":"Tătarii (sec XIII)","text":"Dintre popoarele nomade care au dominat imensele şesuri ale Eurasiei nici unul nu s-a bucurat de o putere atît de covârşitoare ca mongolii. Ascensiunea lor a fost extrem de rapidă și spectaculoasă: în mai puţin de jumătate de secol ei au cuprins un teritoriu enorm, limitat de Oceanul Pacific la răsărit, de cursul inferior al Dunării la apus, de taigaua Siberiei la nord şi de Golful Persic şi culmile Himalaiei la sud.","imagine":"mongol.jpg"},"geometry":{"type":"Point","coordinates":[134.6484375,63.54855223203644]}},{"type":"Feature","properties":{"titlu":"Cumanii sec  (IX-XIII)","text":"Unul din triburile turanice cele mai numeroase si puternice care a influențat în mod semnificativ cursul evenimentelor din primele secole ale mileniului întâi, a fost fără îndoială cel al cumanilor. Economia cumană se baza pe creșterea animalelor în detrimentul agriculturii. Meșteșugarii cumani erau pricepuți în realizarea de arme și podoabe.","imagine":"cumani.jpg"},"geometry":{"type":"Point","coordinates":[64.16015624999999,52.802761415419674]}},{"type":"Feature","properties":{"titlu":"Slavii (sec V-IX)","text":"Menționați pentru prima oară de Procopius din Cezareea, s-a considerat că slavii provin din regiunile din preajma izvolarelor Vistulei. Cel mai vechi alfabet slav este cel glagolitic, creat de Sf. Chiril din Tesalonic. Pentru că literele grecești nu erau adecvate limbii slavone, Chiril a creat această scriere pentru a facilita accesul slavilor la scrierile creștine.","imagine":"slavi.jpg"},"geometry":{"type":"Point","coordinates":[96.15234375,63.470144746565424]}},{"type":"Feature","properties":{"titlu":"Goții (200-400 e.n.)","text":"Goții erau un popor germanic, două din ramurile sale - vizigoții și ostrogoții - având o puternică influență în Europa secolului al III-lea e.n. Sub presiunea hunilor, goții s-au retras la sud de Dunăre și au lasat în urmă, îngropat în pământ, un tezaur care a fost descoperit in 1837 la Pietroasele, Buzău.","imagine":"gotipietroasele.jpg"},"geometry":{"type":"Point","coordinates":[8.0859375,51.6180165487737]}}]}
+{
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "titlu": "Tătarii (sec XIII)",
+        "text": "Dintre popoarele nomade care au dominat imensele şesuri ale Eurasiei nici unul nu s-a bucurat de o putere atît de covârşitoare ca mongolii. Ascensiunea lor a fost extrem de rapidă și spectaculoasă: în mai puţin de jumătate de secol ei au cuprins un teritoriu enorm, limitat de Oceanul Pacific la răsărit, de cursul inferior al Dunării la apus, de taigaua Siberiei la nord şi de Golful Persic şi culmile Himalaiei la sud.",
+        "imagine": "mongol.jpg"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          134.6484375,
+          63.54855223203644
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "titlu": "Slavii (sec V-IX)",
+        "text": "Menționați pentru prima oară de Procopius din Cezareea, s-a considerat că slavii provin din regiunile din preajma izvolarelor Vistulei. Cel mai vechi alfabet slav este cel glagolitic, creat de Sf. Chiril din Tesalonic. Pentru că literele grecești nu erau adecvate limbii slavone, Chiril a creat această scriere pentru a facilita accesul slavilor la scrierile creștine.",
+        "imagine": "slavi.jpg"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          96.15234375,
+          63.470144746565424
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "titlu": "Goții (200-400 e.n.)",
+        "text": "Goții erau un popor germanic, două din ramurile sale - vizigoții și ostrogoții - având o puternică influență în Europa secolului al III-lea e.n. Sub presiunea hunilor, goții s-au retras la sud de Dunăre și au lasat în urmă, îngropat în pământ, un tezaur care a fost descoperit in 1837 la Pietroasele, Buzău.",
+        "imagine": "gotipietroasele.jpg"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          8.0859375,
+          51.6180165487737
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "titlu": "Ungarii sec (VIII-X)",
+        "text": "Ungarii apar în sursele arabe și bizantine în sec al X-lea; ei descind din ramura ugrică a familiei de triburi fino-ugrice, care, la rândul lor, alcătuiau o branşă a populaţiilor de limbă uralică. Caii aveau un rol central în economia și riturile maghiarilor. În necropolele din Panonia au fost găsite umeroase piese de harnașament împreună cu cranii, oasele de la picioare sau chiar pielea calului umplută cu paie.",
+        "imagine": "unguri.jpg"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            81.123046875,
+            68.49604022839505
+          ],
+          [
+            74.267578125,
+            65.98227002980873
+          ],
+          [
+            60.8203125,
+            64.24459476798195
+          ],
+          [
+            48.251953125,
+            61.14323525084058
+          ],
+          [
+            39.375,
+            58.17070248348609
+          ],
+          [
+            33.662109375,
+            55.57834467218206
+          ],
+          [
+            21.357421875,
+            52.802761415419674
+          ],
+          [
+            13.7109375,
+            51.28940590271679
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "titlu": "Hunii (300-400 e.n.)",
+        "text": "Hunii erau o confederație de trupe de războinici nomazi, care au contribuit la prăbușirea Imperiului Roman de Vest. Imperiul Hun s-a constituit sub conducerea regelui Attila, și cuprindea teritorii vaste în Europa Centrală și de Est, până aproape de Franța actuală.",
+        "imagine": "hun.jpg"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            48.251953125,
+            53.592504809039376
+          ],
+          [
+            45.439453125,
+            51.069016659603896
+          ],
+          [
+            41.572265625,
+            49.83798245308484
+          ],
+          [
+            35.419921875,
+            49.66762782262194
+          ],
+          [
+            26.19140625,
+            48.63290858589535
+          ],
+          [
+            22.8515625,
+            47.635783590864854
+          ],
+          [
+            16.083984375,
+            48.10743118848039
+          ],
+          [
+            12.12890625,
+            49.66762782262194
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "titlu": "Pecenegii sec (IX-X)",
+        "text": "Confederaţie tribală de neam turcic, Pecenegii duceau o viaţă predominant nomadă, deplasîndu-se în funcţie de anotimp, împreună cu familiile, turmele şi întregul avut, de-a lungul unor trasee pre-stabilite, în căutare de terenuri de păşunat adecvate. Potrivit descrierilor unor autori contemporani, pecenegii nu dispuneau de locuinţe stabile, adăpostindu-se în corturi şi în căruţe sau care.",
+        "imagine": "pecenegi.jpg"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            59.4140625,
+            54.059387886623576
+          ],
+          [
+            56.162109375,
+            52.908902047770255
+          ],
+          [
+            50.361328125,
+            50.792047064406866
+          ],
+          [
+            41.66015625,
+            49.03786794532644
+          ],
+          [
+            36.123046875,
+            48.980216985374994
+          ],
+          [
+            29.179687499999996,
+            47.69497434186282
+          ],
+          [
+            22.763671875,
+            46.800059446787316
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "titlu": "Bulgarii (sec VII)",
+        "text": "Bulgarii au avut o puternică influență în Balcani în secolul al VII-lea. Cultura lor era una de tip nomad-ecvestru. Se crede că religia bulgară originară era una monoteistă.",
+        "imagine": "bulgari.jpg"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            43.76953125,
+            43.32517767999296
+          ],
+          [
+            42.5390625,
+            45.767522962149876
+          ],
+          [
+            37.08984375,
+            46.86019101567027
+          ],
+          [
+            32.34375,
+            47.040182144806664
+          ],
+          [
+            24.960937499999996,
+            44.653024159812
+          ],
+          [
+            23.203125,
+            42.5530802889558
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "titlu": "Cumanii sec  (IX-XIII)",
+        "text": "Unul din triburile turanice cele mai numeroase si puternice care a influențat în mod semnificativ cursul evenimentelor din primele secole ale mileniului întâi, a fost fără îndoială cel al cumanilor. Economia cumană se baza pe creșterea animalelor în detrimentul agriculturii. Meșteșugarii cumani erau pricepuți în realizarea de arme și podoabe.",
+        "imagine": "cumani.jpg"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            64.6875,
+            50.84757295365389
+          ],
+          [
+            57.041015625,
+            48.980216985374994
+          ],
+          [
+            43.154296875,
+            47.81315451752768
+          ],
+          [
+            33.75,
+            47.635783590864854
+          ],
+          [
+            26.279296875,
+            46.31658418182218
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "titlu": "Cumanii sec  (IX-XIII)",
+        "text": "Unul din triburile turanice cele mai numeroase si puternice care a influențat în mod semnificativ cursul evenimentelor din primele secole ale mileniului întâi, a fost fără îndoială cel al cumanilor. Economia cumană se baza pe creșterea animalelor în detrimentul agriculturii. Meșteșugarii cumani erau pricepuți în realizarea de arme și podoabe.",
+        "imagine": "cumani.jpg"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          64.86328125,
+          50.736455137010665
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "titlu": "Goții (200-400 e.n.)",
+        "text": "Goții erau un popor germanic, două din ramurile sale - vizigoții și ostrogoții - având o puternică influență în Europa secolului al III-lea e.n. Sub presiunea hunilor, goții s-au retras la sud de Dunăre și au lasat în urmă, îngropat în pământ, un tezaur care a fost descoperit in 1837 la Pietroasele, Buzău.",
+        "imagine": "gotipietroasele.jpg"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            40.341796875,
+            61.77312286453146
+          ],
+          [
+            40.517578125,
+            59.489726035537075
+          ],
+          [
+            39.375,
+            53.592504809039376
+          ],
+          [
+            35.33203125,
+            51.944264879028765
+          ],
+          [
+            25.839843749999996,
+            48.16608541901253
+          ],
+          [
+            21.884765625,
+            46.73986059969267
+          ],
+          [
+            15.556640624999998,
+            46.98025235521883
+          ],
+          [
+            9.052734375,
+            49.61070993807422
+          ],
+          [
+            7.822265625000001,
+            52.53627304145948
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "titlu": "Avarii (sec VI-VIII)",
+        "text": "Avarii apar menționați atât în cronicile chineze cât și în cele bizantine. Originea lor nu este clară, existând presupunerea că aparțin unei linii turcice, indo-europene sau mongole. Ei au lăsat în Transilvania urme ale unor așezări denumite “presaka” (“prisăci”),  care constau în zone împădurite lăsate în paragină, prevăzute cu locuri supravegheate.",
+        "imagine": "avari.jpg"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            32.5634765625,
+            48.8936153614802
+          ],
+          [
+            28.212890625,
+            48.019324184801185
+          ],
+          [
+            25.356445312499996,
+            47.66538735632654
+          ],
+          [
+            23.510742187499996,
+            46.46813299215554
+          ],
+          [
+            21.884765625,
+            45.920587344733654
+          ],
+          [
+            16.962890625,
+            45.644768217751924
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "titlu": "Gepizii (sec. V)",
+        "text": "Iordanes, în Getica spune despre gepizi: „Și dacă mă întrebi cum sunt rude goții cu gepizii, în câteva cuvinte îți povestesc ... goții, conduși de regele Berig cu 3 nave au plecat de pe insula Scandza (Scandinavia) și au trecut în Gotiscandaza. Una  dintre  cele 3 nave a întârziat și astfel a dat numele unui popor. În  limba lor leneș înseamnă „gepanta”. Astfel, cu trecerea timpului s-a născut denumirea de gepizi. Și ei provin din triburile goților...” 2. În odele anglo-saxone (Beowulf și Widsith), în  toponimele longobarde, dar și în documente grecești și latine numele lor provine din cuvântul „geba” sau „giban” cea ce înseamnă „a da”, „a dărui”, „generos” sau „darnic”.",
+        "imagine": "gepizi.jpg"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            35.947265625,
+            60.1524422143808
+          ],
+          [
+            35.77148437499999,
+            56.607885465009254
+          ],
+          [
+            35.419921875,
+            54.36775852406841
+          ],
+          [
+            30.761718749999996,
+            49.210420445650286
+          ],
+          [
+            28.125,
+            47.21956811231547
+          ],
+          [
+            23.203125,
+            45.398449976304086
+          ],
+          [
+            20.7421875,
+            44.59046718130883
+          ]
+        ]
+      }
+    }
+  ]
+}
