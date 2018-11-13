@@ -2,28 +2,20 @@
 perioade:
 
 
- - id: 'marea unire'
+  - id: 'marea unire'
     nume: "MAREA UNIRE"
-
+    
   - id: 'mica unire'
     nume: "MICA UNIRE"
 
   - id: 'principate'
     nume: "PRINCIPATE"
 
-
-
-
   - id: 'migratii'
     nume: "MIGRATII"
 
-
-
-
   - id: 'dacia'
     nume: "DACIA"
-
-
 
   - id: 'preistorie'
     nume: "PREISTORIE"
