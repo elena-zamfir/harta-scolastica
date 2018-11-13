@@ -2,6 +2,9 @@
 perioade:
 
 
+ - id: '1918'
+    nume: "1918"
+
   - id: 'mica unire'
     nume: "MICA UNIRE"
 
