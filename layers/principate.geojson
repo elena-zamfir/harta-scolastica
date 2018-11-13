@@ -865,6 +865,105 @@
           44.88774220751532
         ]
       }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "titlu": "Principatul Transilvaniei",
+        "imagine": "stema.jpg",
+        "text": "Denumirea de Transilvania provine din limba latină și înseamnă țara de dincolo de pădure. Un alt nume al regiunii, Siebenburgen, provine din germană, și face referire la cele șapte cetăți săsești din Transilvania, de multe ori reprezentate chiar pe stema acestui principat. Inițial voievodat, Transilvania și-a menținut independența într-o perioadă de dominație otomană a regiunilor învecinate. Din secolul al XVII-lea Transilvania revine Imperiului Austriac."
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              21.785888671874996,
+              45.62172169252446
+            ],
+            [
+              22.91748046875,
+              45.44471679159555
+            ],
+            [
+              23.40087890625,
+              45.43700828867391
+            ],
+            [
+              25.191650390625,
+              45.398449976304086
+            ],
+            [
+              26.004638671875,
+              45.398449976304086
+            ],
+            [
+              26.43310546875,
+              45.51404592560424
+            ],
+            [
+              26.685791015624996,
+              45.61403741135093
+            ],
+            [
+              26.619873046875,
+              45.89000815866184
+            ],
+            [
+              26.444091796874996,
+              46.195042108660154
+            ],
+            [
+              26.092529296875,
+              46.5739667965278
+            ],
+            [
+              25.828857421875,
+              46.9052455464292
+            ],
+            [
+              25.48828125,
+              47.19717795172789
+            ],
+            [
+              25.048828125,
+              47.5913464767971
+            ],
+            [
+              24.719238281249996,
+              47.81315451752768
+            ],
+            [
+              24.422607421875,
+              47.923704717745686
+            ],
+            [
+              23.631591796874996,
+              47.97521412341618
+            ],
+            [
+              23.31298828125,
+              47.82790816919329
+            ],
+            [
+              22.796630859375,
+              47.487513008956554
+            ],
+            [
+              22.12646484375,
+              46.86770273172814
+            ],
+            [
+              21.873779296875,
+              46.30140615437332
+            ],
+            [
+              21.785888671874996,
+              45.62172169252446
+            ]
+          ]
+        ]
+      }
     }
   ]
 }
